@@ -1,6 +1,6 @@
 //
-//  SRLoadingHubView.swift
-//  SRLoadingHubView
+//  SRLoadingHudView.swift
+//  SRLoadingHudView
 //
 //  Created by 潘东 on 2016/9/28.
 //  Copyright © 2016年 潘东. All rights reserved.
@@ -11,7 +11,7 @@ import UIKit
 let BallRadiusDefalut: CGFloat = 20
 let IsShowBlur: Bool = true
 
-class SRLoadingHubView: UIView, CAAnimationDelegate {
+class SRLoadingHudView: UIView, CAAnimationDelegate {
     //MARK: - Init Method
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -48,7 +48,7 @@ class SRLoadingHubView: UIView, CAAnimationDelegate {
      */
     public var ballRadius: CGFloat = BallRadiusDefalut {
         didSet {
-            showHub()
+            showHud()
         }
     }
     
@@ -64,12 +64,12 @@ class SRLoadingHubView: UIView, CAAnimationDelegate {
     }
     
     /**
-     *  Show the hub
+     *  Show the hud
      *  - parameter: nil
      *  - returns: nil
      *
      */
-    public func showHub() {
+    public func showHud() {
         if alreadyShowed == false {
             setBall()
             showBackgroundBlur()
@@ -80,12 +80,12 @@ class SRLoadingHubView: UIView, CAAnimationDelegate {
     }
     
     /**
-     *  Dismiss the hub
+     *  Dismiss the hud
      *  - parameter: nil
      *  - returns: nil
      *
      */
-    public func dismissHub() {
+    public func dismissHud() {
         UIView.animate(withDuration: 0.3, delay: 0.1, options: [.curveEaseOut, .beginFromCurrentState], animations: {
             self.ball1.alpha = 0
             self.ball2.alpha = 0
@@ -245,4 +245,3 @@ class SRLoadingHubView: UIView, CAAnimationDelegate {
     private var ball3 = UIView()
     private let bgView = UIVisualEffectView()
 }
-

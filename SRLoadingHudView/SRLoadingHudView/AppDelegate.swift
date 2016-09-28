@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SRLoadingHubView
+//  SRLoadingHudView
 //
 //  Created by 潘东 on 2016/9/28.
 //  Copyright © 2016年 潘东. All rights reserved.

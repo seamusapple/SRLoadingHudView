@@ -1,6 +1,6 @@
 //
-//  SRLoadingHubViewUITests.swift
-//  SRLoadingHubViewUITests
+//  SRLoadingHudViewUITests.swift
+//  SRLoadingHudViewUITests
 //
 //  Created by 潘东 on 2016/9/28.
 //  Copyright © 2016年 潘东. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SRLoadingHubViewUITests: XCTestCase {
+class SRLoadingHudViewUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

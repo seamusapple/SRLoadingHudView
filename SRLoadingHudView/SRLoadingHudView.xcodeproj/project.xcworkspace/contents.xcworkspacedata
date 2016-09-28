@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SRLoadingHubView.xcodeproj">
+      location = "self:SRLoadingHudView.xcodeproj">
    </FileRef>
 </Workspace>
