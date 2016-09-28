@@ -1,6 +1,6 @@
 # SRLoadingHudView
 
--- ![](/Users/pandong/GitHub/SRLoadingHudView/SRLoadingHubView.gif)
+-- ![](./SRLoadingHubView.gif)
 
 
 ## How to use it:
